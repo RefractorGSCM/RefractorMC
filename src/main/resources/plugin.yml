@@ -6,3 +6,5 @@ authors: [ sniddunc ]
 website: https://github.com/RefractorGSCM
 commands:
   playerlist:
+    aliases:
+      - PlayerList
