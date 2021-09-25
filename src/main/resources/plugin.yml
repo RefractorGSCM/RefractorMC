@@ -1,0 +1,8 @@
+name: RefractorMC
+version: '${project.version}'
+main: com.github.refractorgscm.refractormc.RefractorMC
+api-version: 1.17
+authors: [ sniddunc ]
+website: https://github.com/RefractorGSCM
+commands:
+  playerlist:
