@@ -19,7 +19,7 @@ public class PlayerListCommand implements CommandExecutor {
         StringBuilder sb = new StringBuilder();
 
         for (Player player : Bukkit.getOnlinePlayers()) {
-            sb.append(String.format("%s,%s", player.getUniqueId(), player.getName()));
+            sb.append(String.format("%s:%s\n", player.getUniqueId(), player.getName()));
         }
 
         sender.sendMessage(sb.toString());
